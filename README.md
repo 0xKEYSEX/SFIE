@@ -4,6 +4,3 @@
 ### <div align="center">SFIE is a software that was created in Python following a request, I decided to make it public so that everyone can enjoy it, it is a simple script that was created while I started in Python</div>  
 
 <br />
-
-----
-<div align="center">Generated using <a href="https://profilinator.rishav.dev/" target="_blank">Github Profilinator</a></div>
