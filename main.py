@@ -6,7 +6,7 @@ import string, random
 from email.mime.text import MIMEText
 import random
 
-# Created by KEYSEX#4176
+# Created by 0xKEYSEX#4176
 
 def sendEmailFullInfo():
     sender = "SENDER EMAIL"
@@ -50,17 +50,17 @@ def sendEmailFullInfo():
         <html>
           <body>
             <p>🐱‍👤Information🐱‍👤: <br></p>
-            <p>     💎 Nom: %s</p>
-            <p>     💎 Date de naissance: %s</p>
+            <p>     💎 Name: %s</p>
+            <p>     💎 Date of birth: %s</p>
             <p>     💎 Address: %s</p>
-            <p>     💎 Numéro de téléphone: %s</p>
+            <p>     💎 Phone number: %s</p>
             <p>     💎 Email: %s</p>
             <p>     💎 Password: %s</p>
             <p> </p>
             <p>💲Information CC💲: </p>
-            <p>     💳 Numéro de carte: %s</p>
+            <p>     💳 Card number: %s</p>
             <p>     💳 CCV: %s</p>
-            <p>     💳 Date d'expiration: %s%s%s</p>
+            <p>     💳 Expiry date: %s%s%s</p>
             <p>     </p>
             <p>     💡 IP: %s</p>
             <p>     💡 User-Agent: %s</p>
@@ -74,17 +74,17 @@ def sendEmailFullInfo():
         <html>
           <body>
             <p>🐱‍👤Information🐱‍👤: <br></p>
-            <p>    💎 Nom: %s</p>
-            <p>    💎 Date de naissance: %s</p>
+            <p>    💎 Name: %s</p>
+            <p>    💎 Date of birth: %s</p>
             <p>    💎 Address: %s</p>
-            <p>    💎 Numéro de téléphone: %s</p>
+            <p>    💎 Phone number: %s</p>
             <p>    💎 Email: %s</p>
             <p>    💎 Password: %s</p>
             <p> </p>
             <p>💲Information CC💲: </p>
-            <p>     💳 Numéro de carte: %s</p>
+            <p>     💳 Card number: %s</p>
             <p>     💳 CCV: %s</p>
-            <p>     💳 Date d'expiration: %s%s%s</p>
+            <p>     💳 Expiry date: %s%s%s</p>
             <p>     </p>
             <p>     💡 IP: %s</p>
             <p>     💡 User-Agent: %s</p>
@@ -104,7 +104,7 @@ def sendEmailFullInfo():
     smtp.login(user = 'SENDER EMAIL', password = 'SENDER PASSWORD')
     smtp.sendmail(sender, receivers, msg.as_string())
     smtp.quit()
-    print("Email envoyé avec succès  [FULL INFO]!")
+    print("Email sent successfully  [FULL INFO]!")
 
 sendEmailFullInfo()
 
@@ -128,9 +128,9 @@ def sendEmailCCInfo():
     <html>
       <body>
         <p>💲Information CC💲: <br></p>
-            <p>    💳 Numéro de carte: %s</p>
+            <p>    💳 Card number: %s</p>
             <p>    💳 CCV: %s</p>
-            <p>    💳 Date d'expiration: %s%s%s</p>
+            <p>    💳 Expiry date: %s%s%s</p>
       </body>
     </html>
     """%(fakeCard, fakeCCV, randomDays, "/", fakeExpiration)
@@ -145,7 +145,7 @@ def sendEmailCCInfo():
     smtp.sendmail(sender, receivers, msg.as_string())
     smtp.quit()
 
-    print("Email envoyé avec succès [INFO CC]!")
+    print("Email sent successfully [INFO CC]!")
 
 def sendFakePaypal():
     sender = "SENDER EMAIL"
@@ -179,7 +179,7 @@ def sendFakePaypal():
     smtp.sendmail(sender, receivers, msg.as_string())
     smtp.quit()
 
-    print("Email envoyé avec succès [INFO PayPal]!")
+    print("Email sent successfully [INFO PayPal]!")
 
 def start():
     randomTimer = random.randint(600, 1200)
@@ -194,7 +194,6 @@ def start():
     return start()
 
 if __name__ == "__main__":
-    print("Execution start(): (Created by KEYSEX#4176)")
     start()
 
-# Created by KEYSEX#4176
+# Created by 0xKEYSEX#4176
