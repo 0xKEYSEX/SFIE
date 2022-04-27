@@ -4,7 +4,7 @@
 ### <div align="center">SFIE is a software that was created in Python following a request, I decided to make it public so that everyone can enjoy it, it is a simple script that was created while I started in Python</div>  
   
 
-  
+<br>
   
 
 🌎 To install it, you can do: git clone **https://github.com/0xKEYSEX/SFIE.git** or install it directly has **Zip file**!  
