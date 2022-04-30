@@ -15,4 +15,5 @@
 
 🐍 Then you just have to do **python3 main.py** and it's done 👏  
 
+// I am not responsible for your actions \\
 <br />
